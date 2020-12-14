@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ArtistControllerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ArtistControllerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.tidal.refactoring.api.html">com.tidal.refactoring.api</a> &gt; ArtistControllerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.249s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldAddArtists()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldDeleteAllArtists()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldDeleteArtistById()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetAllArtists()</td>
+<td class="success">0.131s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetByArtistId()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetByArtistName()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowExceptionIdNameIsEmpty()</td>
+<td class="success">0.054s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowExceptionIfIdIsEmpty()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowExceptionIfIdIsNull()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowExceptionIfNameIsEmpty()</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:48:52.808 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:48:52.820 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:48:52.853 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.tidal.refactoring.api.ArtistControllerTests] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+12:48:52.862 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tidal.refactoring.api.ArtistControllerTests], using SpringBootContextLoader
+12:48:52.865 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tidal.refactoring.api.ArtistControllerTests]: class path resource [com/tidal/refactoring/api/ArtistControllerTests-context.xml] does not exist
+12:48:52.865 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tidal.refactoring.api.ArtistControllerTests]: class path resource [com/tidal/refactoring/api/ArtistControllerTestsContext.groovy] does not exist
+12:48:52.865 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.tidal.refactoring.api.ArtistControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:48:52.866 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.tidal.refactoring.api.ArtistControllerTests]: ArtistControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:48:52.925 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.tidal.refactoring.api.ArtistControllerTests]
+12:48:52.978 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/melikeercan/IdeaProjects/demo/build/classes/java/main/com/tidal/refactoring/DemoApplication.class]
+12:48:52.979 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.tidal.refactoring.DemoApplication for test class com.tidal.refactoring.api.ArtistControllerTests
+12:48:52.981 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [com.tidal.refactoring.api.ArtistControllerTests]: using defaults.
+12:48:52.982 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:48:52.995 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2f84cb93, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@509bd9d5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6ce9c94e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1f204563, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1671dd47, org.springframework.test.context.transaction.TransactionalTestExecutionListener@18aafb2d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3aabf2cf, org.springframework.test.context.event.EventPublishingTestExecutionListener@273da3a4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3f3ec9e1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@70822eb8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15da87ed, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5fb03671, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@16089da7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@771e8630]
+12:48:52.998 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1bf2ef35 testClass = ArtistControllerTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@e63eaf3 testClass = ArtistControllerTests, locations = '{}', classes = '{class com.tidal.refactoring.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@52091921, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@479ff1e2, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@a43e6795, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@23cb64aa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5e67e381, [ImportsContextCustomizer@46a48075 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@81a9b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1dc627cf, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@32c684e4, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+12:48:53.143 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.0)
+
+2020-12-10 12:48:53.438  INFO 27366 --- [    Test worker] c.t.r.api.ArtistControllerTests          : Starting ArtistControllerTests using Java 11.0.8 on melikes-mbp-2.lan with PID 27366 (started by melikeercan in /Users/melikeercan/IdeaProjects/demo)
+2020-12-10 12:48:53.440  INFO 27366 --- [    Test worker] c.t.r.api.ArtistControllerTests          : No active profile set, falling back to default profiles: default
+2020-12-10 12:48:54.834  INFO 27366 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 12:48:55.103  INFO 27366 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-12-10 12:48:55.103  INFO 27366 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-12-10 12:48:55.104  INFO 27366 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2020-12-10 12:48:55.130  INFO 27366 --- [    Test worker] c.t.r.api.ArtistControllerTests          : Started ArtistControllerTests in 1.979 seconds (JVM running for 2.985)
+[{&quot;id&quot;:&quot;5300f680-7f40-4417-b648-036d418db166&quot;,&quot;artistName&quot;:&quot;Test_Artist_Name&quot;}]
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v0/artists/
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.ArtistController
+           Method = com.tidal.refactoring.api.ArtistController#getAllArtist()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.226+00:00&quot;,&quot;content&quot;:[{&quot;id&quot;:&quot;5300f680-7f40-4417-b648-036d418db166&quot;,&quot;artistName&quot;:&quot;Test_Artist_Name&quot;}]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v0/artists/
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;, Content-Length:&quot;11&quot;]
+             Body = {&quot;name&quot;:&quot;&quot;}
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.ArtistController
+           Method = com.tidal.refactoring.api.ArtistController#addNewArtist(NewArtist)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = com.tidal.refactoring.exceptions.InvalidParameterException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 406
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;NOT_ACCEPTABLE&quot;,&quot;timestamp&quot;:&quot;10-12-2020 12:48:55&quot;,&quot;message&quot;:null}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v0/artists/name=
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.ArtistController
+           Method = com.tidal.refactoring.api.ArtistController#getByArtistName(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = com.tidal.refactoring.exceptions.InvalidParameterException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 406
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;NOT_ACCEPTABLE&quot;,&quot;timestamp&quot;:&quot;10-12-2020 12:48:55&quot;,&quot;message&quot;:null}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v0/artists/id=0a1e55c4-518d-4a64-a0b6-951ed4d6e221
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.ArtistController
+           Method = com.tidal.refactoring.api.ArtistController#getById(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.341+00:00&quot;,&quot;content&quot;:{&quot;id&quot;:&quot;0a1e55c4-518d-4a64-a0b6-951ed4d6e221&quot;,&quot;artistName&quot;:&quot;Test_Artist_Name&quot;}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v0/artists/
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;, Content-Length:&quot;27&quot;]
+             Body = {&quot;name&quot;:&quot;Test_Artist_Name&quot;}
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.ArtistController
+           Method = com.tidal.refactoring.api.ArtistController#addNewArtist(NewArtist)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;CREATED&quot;,&quot;message&quot;:&quot;Created new artist successfully&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.351+00:00&quot;,&quot;content&quot;:{&quot;name&quot;:&quot;Test_Artist_Name&quot;}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v0/artists/name=Test_Artist_Name
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.ArtistController
+           Method = com.tidal.refactoring.api.ArtistController#getByArtistName(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.360+00:00&quot;,&quot;content&quot;:{&quot;id&quot;:&quot;fcccf5d8-17e9-4283-9dd9-a2b76f002212&quot;,&quot;artistName&quot;:&quot;Test_Artist_Name&quot;}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /api/v0/artists/484d4858-d9da-4f2d-bbd1-feccfe2072f5
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.ArtistController
+           Method = com.tidal.refactoring.api.ArtistController#deleteById(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;message&quot;:&quot;Artist with id 484d4858-d9da-4f2d-bbd1-feccfe2072f5 is deleted successfully&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.368+00:00&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /api/v0/artists/
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.ArtistController
+           Method = com.tidal.refactoring.api.ArtistController#deleteAllArtists()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;message&quot;:&quot;Deleted all artists successfully&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.375+00:00&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /api/v0/artists/null
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.ArtistController
+           Method = com.tidal.refactoring.api.ArtistController#deleteById(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = com.tidal.refactoring.exceptions.InvalidParameterException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 406
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;NOT_ACCEPTABLE&quot;,&quot;timestamp&quot;:&quot;10-12-2020 12:48:55&quot;,&quot;message&quot;:null}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v0/artists/id=
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.ArtistController
+           Method = com.tidal.refactoring.api.ArtistController#getById(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = com.tidal.refactoring.exceptions.InvalidParameterException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 406
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;NOT_ACCEPTABLE&quot;,&quot;timestamp&quot;:&quot;10-12-2020 12:48:55&quot;,&quot;message&quot;:null}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.3</a> at Dec 10, 2020, 12:48:58 PM</p>
+</div>
+</div>
+</body>
+</html>

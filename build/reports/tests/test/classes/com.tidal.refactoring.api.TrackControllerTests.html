@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TrackControllerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TrackControllerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.tidal.refactoring.api.html">com.tidal.refactoring.api</a> &gt; TrackControllerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.052s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldAddTrack()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldDeleteAllTracks()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldDeleteTracksById()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetAllPlayLists()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetByTitle()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetByTrackId()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetTracksLongerThan()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowExceptionIfTitleIsEmpty()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2020-12-10 12:48:55.400  INFO 27366 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tidal.refactoring.api.TrackControllerTests], using SpringBootContextLoader
+2020-12-10 12:48:55.400  INFO 27366 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.tidal.refactoring.api.TrackControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-12-10 12:48:55.400  INFO 27366 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.tidal.refactoring.api.TrackControllerTests]: TrackControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-12-10 12:48:55.404  INFO 27366 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.tidal.refactoring.DemoApplication for test class com.tidal.refactoring.api.TrackControllerTests
+2020-12-10 12:48:55.404  INFO 27366 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-12-10 12:48:55.405  INFO 27366 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@33f0ddc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4deb857c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@467f9016, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20fcd9a2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5b56718c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a87dfff, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@70c20999, org.springframework.test.context.event.EventPublishingTestExecutionListener@36b5efea, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e8732a1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2a8b66a9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ae52ca0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@533640a9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@34437254, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@458cf45b]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.0)
+
+2020-12-10 12:48:55.426  INFO 27366 --- [    Test worker] c.t.r.api.TrackControllerTests           : Starting TrackControllerTests using Java 11.0.8 on melikes-mbp-2.lan with PID 27366 (started by melikeercan in /Users/melikeercan/IdeaProjects/demo)
+2020-12-10 12:48:55.427  INFO 27366 --- [    Test worker] c.t.r.api.TrackControllerTests           : No active profile set, falling back to default profiles: default
+2020-12-10 12:48:55.675  INFO 27366 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 12:48:55.782  INFO 27366 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-12-10 12:48:55.783  INFO 27366 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-12-10 12:48:55.783  INFO 27366 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2020-12-10 12:48:55.793  INFO 27366 --- [    Test worker] c.t.r.api.TrackControllerTests           : Started TrackControllerTests in 0.386 seconds (JVM running for 3.648)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v0/tracks/longerThan=100
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.TrackController
+           Method = com.tidal.refactoring.api.TrackController#getByDurationLongerThan(Integer)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.799+00:00&quot;,&quot;content&quot;:[{&quot;id&quot;:&quot;9670754d-9c63-4ed4-a51d-fc335a455e60&quot;,&quot;title&quot;:&quot;Test_Track_Name&quot;,&quot;durationInSeconds&quot;:100}]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /api/v0/tracks/
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.TrackController
+           Method = com.tidal.refactoring.api.TrackController#deleteAllTracks()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;message&quot;:&quot;Deleted all tracks successfully&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.812+00:00&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v0/tracks/
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.TrackController
+           Method = com.tidal.refactoring.api.TrackController#getAllTracks()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.817+00:00&quot;,&quot;content&quot;:[{&quot;id&quot;:&quot;80dc47bc-b534-43e9-8ddf-6a1ab8dfd6da&quot;,&quot;title&quot;:&quot;Test_Track_Name&quot;,&quot;durationInSeconds&quot;:100}]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v0/tracks/title=Test_Track_Name
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.TrackController
+           Method = com.tidal.refactoring.api.TrackController#getByTitle(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.823+00:00&quot;,&quot;content&quot;:{&quot;id&quot;:&quot;7ed1f642-821b-431d-a483-ffd4c874f8d7&quot;,&quot;title&quot;:&quot;Test_Track_Name&quot;,&quot;durationInSeconds&quot;:100}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /api/v0/tracks/69d6f58e-606a-47f2-b5b3-820dc6179b4c
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.TrackController
+           Method = com.tidal.refactoring.api.TrackController#deleteById(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;message&quot;:&quot;Track with id 69d6f58e-606a-47f2-b5b3-820dc6179b4c is deleted successfully&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.829+00:00&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v0/tracks/title=
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.TrackController
+           Method = com.tidal.refactoring.api.TrackController#getByTitle(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = com.tidal.refactoring.exceptions.InvalidParameterException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 406
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;NOT_ACCEPTABLE&quot;,&quot;timestamp&quot;:&quot;10-12-2020 12:48:55&quot;,&quot;message&quot;:null}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v0/tracks/id=b41a29d1-7698-48f9-83f7-c196306c39dd
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.TrackController
+           Method = com.tidal.refactoring.api.TrackController#getById(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.841+00:00&quot;,&quot;content&quot;:{&quot;id&quot;:&quot;b41a29d1-7698-48f9-83f7-c196306c39dd&quot;,&quot;title&quot;:&quot;Test_Track_Name&quot;,&quot;durationInSeconds&quot;:100}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v0/tracks/
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;, Content-Length:&quot;150&quot;]
+             Body = {&quot;title&quot;:&quot;Test_Track_Name&quot;,&quot;durationInSeconds&quot;:100,&quot;artistId&quot;:&quot;ce1b9a47-12a7-4a94-ac10-e63427b0fffd&quot;,&quot;albumName&quot;:&quot;Test_Album_Name&quot;,&quot;releaseYear&quot;:2020}
+    Session Attrs = {}
+
+Handler:
+             Type = com.tidal.refactoring.api.TrackController
+           Method = com.tidal.refactoring.api.TrackController#addNewTrack(NewTrack)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;status&quot;:&quot;OK&quot;,&quot;message&quot;:&quot;Created new track successfully&quot;,&quot;timestamp&quot;:&quot;2020-12-10T11:48:55.851+00:00&quot;,&quot;content&quot;:{&quot;title&quot;:&quot;Test_Track_Name&quot;,&quot;durationInSeconds&quot;:100,&quot;artistId&quot;:&quot;ce1b9a47-12a7-4a94-ac10-e63427b0fffd&quot;,&quot;albumName&quot;:&quot;Test_Album_Name&quot;,&quot;releaseYear&quot;:2020}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.3</a> at Dec 10, 2020, 12:48:58 PM</p>
+</div>
+</div>
+</body>
+</html>
